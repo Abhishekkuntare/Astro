@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+
+.footerDiv {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer1 {
+  padding: 5px;
+}
+.footer1 > p {
+  font: 700 1vmax "Spartan";
+  margin-bottom: 1vmax;
+}
+.footer1 > h3 {
+  font: 400 0.9vmax "Spartan";
+  line-height: 25px;
+}
+.footer0 {
+  display: flex;
+}
+.fa-box-open,
+.fa-shopping-cart,
+.fa-user,
+.fa-credit-card {
+  font-size: 30px;
+  color: rgb(43, 40, 40);
+  margin-top: 15px;
+  margin-right: 1vmax;
+}
+
+@media screen and (max-width: 600px) {
+  /* .footerDiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } */
+  .fa-box-open,
+  .fa-shopping-cart,
+  .fa-user,
+  .fa-credit-card {
+    font-size: 18px;
+    color: rgb(43, 40, 40);
+    margin-top: 10px;
+    margin-right: 1vmax;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer1 > h3 {
+line-height: 15px;
+  }
+.footerDiv{
+    overflow-y: scroll;
+}
+}
